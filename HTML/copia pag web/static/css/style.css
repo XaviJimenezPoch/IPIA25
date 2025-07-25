@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+.logo {
+  font-size: 2rem;
+  font-family: "Georama", sans-serif;
+  letter-spacing: 0;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.azul {
+  font-size: 100px;
+  color: #4285f4;
+}
+.rojo {
+  font-size: 100px;
+  color: #ea4335;
+}
+
+.amarillo {
+  font-size: 100px;
+  color: #fbbc05;
+}
+
+.verde {
+  font-size: 100px;
+  color: #34a853;
+}
+nav {
+  text-decoration: none;
+  margin: 20px;
+}
+.izq {
+  float: left;
+}
+.der {
+  float: right;
+}
+.buscar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+.botones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  gap: 5px;
+}
+.idiomas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

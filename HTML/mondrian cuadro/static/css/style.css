@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+#container {
+  width: 400px;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  margin-top: 10%;
+  box-shadow: 2px 2px 5px black;
+}
+#derTop {
+  width: 80%;
+  height: 350px;
+  background-color: red;
+  float: right;
+  border-bottom: 10px solid black;
+}
+#izqTop {
+  width: 20%;
+  height: 175px;
+  background-color: white;
+  float: left;
+  border-bottom: 10px solid black;
+  border-right: 10px solid black;
+}
+#izqBot {
+  width: 20%;
+  height: 150px;
+  background-color: blue;
+  float: left;
+  border-right: 10px solid black;
+}
+#mid {
+  width: 60%;
+  height: 150px;
+  background-color: white;
+  float: left;
+}
+#derMid {
+  width: 20%;
+  height: 75px;
+  background-color: blue;
+  float: left;
+  border-bottom: 10px solid black;
+  border-left: 10px solid black;
+}
+#derBot {
+  width: 20%;
+  height: 75px;
+  background-color: yellow;
+  float: left;
+  border-left: 10px solid black;
+}
