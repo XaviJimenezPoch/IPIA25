@@ -34,27 +34,38 @@
   color: #34a853;
 }
 nav {
+  margin-top: 0;
   text-decoration: none;
-  margin: 20px;
+  padding: 20px;
+  margin-bottom: 100px;
 }
 .izq {
   float: left;
+  display: flex;
+  gap: 20px;
 }
 .der {
   float: right;
+  display: flex;
+  gap: 15px;
 }
+.bajar {
+  margin-top: 10px;
+}
+
 .buscar {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 5px;
+  gap: 8px;
 }
 .botones {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 5px;
-  gap: 5px;
+  gap: 30px;
 }
 .idiomas {
   display: flex;
@@ -62,8 +73,90 @@ nav {
   justify-content: center;
   margin: 5px;
 }
-main{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+main {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 300px;
+}
+
+.rightbtm {
+  float: right;
+}
+
+.leftbtm {
+  float: left;
+  margin-right: 13vw;
+}
+
+.midlebtm {
+  align-items: center;
+}
+
+footer {
+  width: 100vw;
+  height: 15vh;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+img {
+  width: 13px;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p > a {
+  text-decoration: underline;
+  color: rgb(44, 44, 184);
+}
+
+.menu {
+  width: 37px;
+  height: auto;
+  border-radius: 50%;
+  padding: 4px;
+}
+.menu:hover {
+  width: 37px;
+  height: auto;
+  border-radius: 50%;
+  background-color: #adacac;
+  padding: 4px;
+}
+
+.profile {
+  width: 37px;
+  height: auto;
+  border: solid;
+  border-radius: 50%;
+  background-color: #c1bebe;
+}
+
+.profile:hover {
+  padding: 2px;
+  background-color: #b5b3b3;
+}
+
+input[type="search"] {
+  width: 550px;
+  height: 40px;
+  border-radius: 50px;
+  border-color: #f2f2f2;
+  display: flex;
+  margin-left: 1vw;
+  box-shadow: 0.5px 0.5px 0.5px;
+  border-color: #ddd9d9;
+}
+
+.botones > button {
+  width: 160px;
+  height: 30px;
+  border: none;
+  background-color: rgba(235, 235, 242, 0.5);
 }
